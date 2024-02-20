@@ -1,0 +1,6 @@
+kaggle
+scikit-learn
+nltk
+pandas
+numpy
+tensorflow[and-cuda]

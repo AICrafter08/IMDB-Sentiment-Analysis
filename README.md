@@ -6,6 +6,11 @@ About This Repository
 
 This repository contains code and resources for performing sentiment analysis on the IMDB dataset of 50K movie reviews. It explores different methodologies including Bag of Words (BoW), TF-IDF, and Neural Networks to classify reviews into positive or negative sentiments.
 
+Dataset Overview
+----------------
+
+The [IMDB dataset](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews) features 50,000 movie reviews, evenly split between 25,000 positive and 25,000 negative reviews. This balance makes it an excellent resource for binary sentiment classification, providing a standard benchmark for evaluating model performance in natural language processing tasks.
+
 How to Use
 ----------
 
@@ -14,19 +19,22 @@ How to Use
 2.  **Navigate to the Repository Folder**:
     *   `cd IMDB-Sentiment-Analysis.git`
 
-Dataset Overview
+Folder Structure
 ----------------
 
-The [IMDB dataset](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews) features 50,000 movie reviews, evenly split between 25,000 positive and 25,000 negative reviews. This balance makes it an excellent resource for binary sentiment classification, providing a standard benchmark for evaluating model performance in natural language processing tasks.
+*   `BOW_classification.py`: Contains code specific to Bag of Words classification.
+*   `TFIDF_classification.py`: Dedicated to TF-IDF based classification.
+*   `Neuralnet_classification.py`: Implements Neural Network for sentiment analysis.
+*   `IMDB_dataset_classifier.ipynb`: Jupyter notebook with a comprehensive guide covering all methods.
 
 Installation
 ------------
 
 Ensure Python 3.x is installed. Install the required libraries using:
 
-bashCopy code
-
-`pip install -r requirements.txt`
+```bash
+pip install -r requirements.txt
+```
 
 Running the Codes
 -----------------
@@ -39,14 +47,5 @@ Running the Codes
     *   `python Neuralnet_classification.py`
 *   **Comprehensive Analysis** (includes all methods):
     *   Open and run `IMDB_dataset_classifier.ipynb` in a Jupyter notebook environment or Google Colab.
-
-Folder Structure
-----------------
-
-*   `BOW_classification.py`: Contains code specific to Bag of Words classification.
-*   `TFIDF_classification.py`: Dedicated to TF-IDF based classification.
-*   `Neuralnet_classification.py`: Implements Neural Network for sentiment analysis.
-*   `IMDB_dataset_classifier.ipynb`: Jupyter notebook with a comprehensive guide covering all methods.
-
 
 # Give a :star: To This Repository!

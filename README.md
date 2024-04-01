@@ -1,9 +1,6 @@
 IMDB Sentiment Analysis
 =======================
 
-About This Repository
----------------------
-
 This repository contains code and resources for performing sentiment analysis on the IMDB dataset of 50K movie reviews. It explores different methodologies including Bag of Words (BoW), TF-IDF, and Neural Networks to classify reviews into positive or negative sentiments.
 
 Dataset Overview

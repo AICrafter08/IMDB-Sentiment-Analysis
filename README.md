@@ -22,9 +22,10 @@ How to Use
 Folder Structure
 ----------------
 
-*   `BOW_classification.py`: Contains code specific to Bag of Words classification.
-*   `TFIDF_classification.py`: Dedicated to TF-IDF based classification.
-*   `Neuralnet_classification.py`: Implements Neural Network for sentiment analysis.
+* `src/` - Contains Python scripts:
+    *   `BOW_classification.py`: Contains code specific to Bag of Words classification.
+    *   `TFIDF_classification.py`: Dedicated to TF-IDF based classification.
+    *   `Neuralnet_classification.py`: Implements Neural Network for sentiment analysis.
 *   `IMDB_dataset_classifier.ipynb`: Jupyter notebook with a comprehensive guide covering all methods.
 
 Installation
@@ -48,4 +49,7 @@ Running the Codes
 *   **Comprehensive Analysis** (includes all methods):
     *   Open and run `IMDB_dataset_classifier.ipynb` in a Jupyter notebook environment or Google Colab.
 
+## Author
+
+[Tushar Chauhan ](https://www.linkedin.com/in/tushar-chauhan-626681179/)
 # Give a :star: To This Repository!
